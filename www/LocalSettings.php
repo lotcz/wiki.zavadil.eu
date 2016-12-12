@@ -184,3 +184,8 @@ $wgSessionsInObjectCache = true;
 // of sending Cookie headers to Parsoid over HTTP. For security reasons, it is strongly recommended
 // that $wgVirtualRestConfig['modules']['parsoid']['url'] be pointed to localhost if this setting is enabled.
 $wgVirtualRestConfig['modules']['parsoid']['forwardCookies'] = true;
+
+# MATH
+
+wfLoadExtension( 'Math' );
+$wgUseTeX = true;
